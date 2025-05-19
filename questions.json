@@ -1,0 +1,1604 @@
+[
+    {
+        "question": "Which API is the Contentful web app built on top of?",
+        "options": [
+            "Content Delivery API",
+            "GraphQL API",
+            "Content Preview API",
+            "Content Management API"
+        ],
+        "correct": [
+            "Content Management API"
+        ]
+    },
+    {
+        "question": "Which two statements are true about environments?",
+        "options": [
+            "There can be multiple sandbox environments",
+            "Only space admin have access to both master and sandbox environments",
+            "The master environment keeps a version history of published entries",
+            "The sandbox environments can not be deleted and/or renamed"
+        ],
+        "correct": [
+            "There can be multiple sandbox environments",
+            "The master environment keeps a version history of published entries"
+        ]
+    },
+    {
+        "question": "When considering blue/green deployment, which one of these can you use?",
+        "options": [
+            "The merge app",
+            "Custom roles and permissions",
+            "Environment aliases",
+            "Webhooks"
+        ],
+        "correct": [
+            "Environment aliases"
+        ]
+    },
+    {
+        "question": "In Contentful, if a user has an individual space role and is also a member of a team with a space role, what happens?",
+        "options": [
+            "The user must choose which role’s permissions they want to keep",
+            "The user is granted permissions from both roles",
+            "The user is only granted permissions from the team’s space role",
+            "The user is only granted permissions from their individual space role"
+        ],
+        "correct": [
+            "The user is granted permissions from both roles"
+        ]
+    },
+    {
+        "question": "Which three tasks can you use Contentful’s CLI tool to do? Select 3 correct Response",
+        "options": [
+            "Importing content into a space",
+            "Exporting content from a space",
+            "Securely logging in and out with Contentful’s OAuth service",
+            "Generating graphical views of content models"
+        ],
+        "correct": [
+            "Importing content into a space",
+            "Exporting content from a space",
+            "Securely logging in and out with Contentful’s OAuth service"
+        ]
+    },
+    {
+        "question": "What is the recommended best practice for using migration scripts?",
+        "options": [
+            "Migration scripts should be used to modify entries",
+            "Migration scripts should be applied using the web interface",
+            "Migration scripts should be used to modify multiple content types in a row",
+            "Migration scripts should be small and backward compatible whenever possible"
+        ],
+        "correct": [
+            "Migration scripts should be small and backward compatible whenever possible"
+        ]
+    },
+    {
+        "question": "Which three real-time transformations does Contentful’s Images API support? Select 3 correct responses",
+        "options": [
+            "Cropping",
+            "Image quality",
+            "Image format conversion",
+            "Color correction"
+        ],
+        "correct": [
+            "Cropping",
+            "Image quality",
+            "Image format conversion"
+        ]
+    },
+    {
+        "question": "You are working with your development operations team and you want to create a CI/CD pipeline. What two tools should you recommend the developers to use? Select 2 correct responses",
+        "options": [
+            "Contentful CLI",
+            "Migration scripts",
+            "GraphQL",
+            "App framework"
+        ],
+        "correct": [
+            "Contentful CLI",
+            "Migration scripts"
+        ]
+    },
+    {
+        "question": "You want to query content in a specific schema so that delivery is compact and customized. Which API should you use?",
+        "options": [
+            "GraphQL API",
+            "Content Delivery API",
+            "Sync API",
+            "Content Management API"
+        ],
+        "correct": [
+            "GraphQL API"
+        ]
+    },
+    {
+        "question": "Which three stages are involved in the process of merging content type changes via the Merge app? Select 3 Correct Responses",
+        "options": [
+            "Deleting the source environment after merge",
+            "Generating a new content type",
+            "Selecting the environments",
+            "Selecting the content types",
+            "Reviewing and resolving conflicts"
+        ],
+        "correct": [
+            "Selecting the environments",
+            "Selecting the content types",
+            "Reviewing and resolving conflicts"
+        ]
+    },
+    {
+        "question": "Which three types of content can be stored within Contentful? Select 3 Correct Responses",
+        "options": [
+            "Scripts",
+            "SEO metadata",
+            "HTML",
+            "Images",
+            "Localized content"
+        ],
+        "correct": [
+            "SEO metadata",
+            "Images",
+            "Localized content"
+        ]
+    },
+    {
+        "question": "Which author/editor feature in Contentful requires assistance from software developers to set up?",
+        "options": [
+            "Asset uploads",
+            "Live preview",
+            "Shared views",
+            "Scheduled publishing"
+        ],
+        "correct": [
+            "Live preview"
+        ]
+    },
+    {
+        "question": "What does a \"flexible assembly\" allow a content author to do?",
+        "options": [
+            "Create a new reference field within a content typ",
+            "Select locales to view in the web app.",
+            "Add inline text formatting such as bold and itali",
+            "Reorder linked entries within a one-to-many reference fiel"
+        ],
+        "correct": [
+            "Reorder linked entries within a one-to-many reference fiel"
+        ]
+    },
+    {
+        "question": "Which level allows admins to assign both roles and permissions?",
+        "options": [
+            "Environment aliases level",
+            "Organization level",
+            "Space level",
+            "Environment level"
+        ],
+        "correct": [
+            "Space level"
+        ]
+    },
+    {
+        "question": "Which two APIs are cached? Select 2 Correct Responses",
+        "options": [
+            "Content Preview API",
+            "Content Management API",
+            "Content Delivery API",
+            "GraphQL API"
+        ],
+        "correct": [
+            "Content Delivery API",
+            "GraphQL API"
+        ]
+    },
+    {
+        "question": "Which two statements about the feature \"references across spaces\" are correct? Select 2 Correct Responses",
+        "options": [
+            "Before you can use the references across space feature, you need to enable spaces for content orchestration first.",
+            "It allows you to automatically migrating content between different spaces.",
+            "Using references across spaces can increase content reusability.",
+            "Only roles with editing access can work with shared content across spaces."
+        ],
+        "correct": [
+            "Using references across spaces can increase content reusability.",
+            "Only roles with editing access can work with shared content across spaces."
+        ]
+    },
+    {
+        "question": "What format is used to represent Contentful's webhook payloads?",
+        "options": [
+            "Custom JavaScript code",
+            "JSON objects",
+            "AWS Lambda functions",
+            "XML"
+        ],
+        "correct": [
+            "JSON objects"
+        ]
+    },
+    {
+        "question": "At what level are users created in Contentful?",
+        "options": [
+            "Environment",
+            "Space",
+            "Organization",
+            "Environment Alias"
+        ],
+        "correct": [
+            "Organization"
+        ]
+    },
+    {
+        "question": "Which two Contentful APIs are backed by one or more CDNs? Select 2 Correct Responses",
+        "options": [
+            "Content Management API",
+            "Content Delivery API",
+            "Content Preview API",
+            "Images API"
+        ],
+        "correct": [
+            "Content Delivery API",
+            "Images API"
+        ]
+    },
+    {
+        "question": "Which statement is true regarding an author's ability to control presentational options on an assembly content type?",
+        "options": [
+            "Provide authors with a curated list of themes for relevant components instead of giving them detailed control over things like background and text colors.",
+            "Presentational configuration fields should be left as open-ended as possible to allow for the greatest amount of customization.",
+            "Authors should never have the ability to control presentational options on assembly content types.",
+            "Content type fields should always map one-to-one to a Ul element's properties."
+        ],
+        "correct": [
+            "Provide authors with a curated list of themes for relevant components instead of giving them detailed control over things like background and text colors."
+        ]
+    },
+    {
+        "question": "Contentful supports the delivery architecture \"dynamic on server,\" which is also typically ferred to as \"server-side rendering\" architecture. Which use case is a good fit for this architecture?",
+        "options": [
+            "Static documentation websites",
+            "Offline content access",
+            "Real-time streaming",
+            "A/B testing"
+        ],
+        "correct": [
+            "A/B testing"
+        ]
+    },
+    {
+        "question": "How does the live preview SDK handle content updates from the entry editor?",
+        "options": [
+            "It processes the updates and triggers an update to the preview websit",
+            "It sends a notification for the user to preview the changes.",
+            "It directly modifies the content in the entry editor.",
+            "It triggers a browser refresh to update the preview."
+        ],
+        "correct": [
+            "It processes the updates and triggers an update to the preview websit"
+        ]
+    },
+    {
+        "question": "Which three conversions are supported in Contentful's library for rendering rich text? Select 3 Correct Responses",
+        "options": [
+            "rich text to HTML",
+            "rich text to XML",
+            "rich text to React components",
+            "Markdown to rich text"
+        ],
+        "correct": [
+            "rich text to HTML",
+            "rich text to XML",
+            "Markdown to rich text"
+        ]
+    },
+    {
+        "question": "Which two statements are true about the benefits Contentful's client libraries have over using a simple HTTP client? Select 2 Correct Responses",
+        "options": [
+            "They reduce the amount of requests required to perform operations in Contentful.",
+            "They provide tools to build websites.",
+            "They reduce complexity of code by abstracting complex operations such as authentication, include resolution, and request retries.",
+            "They provide a streamlined interface for accessing various resources across the different Contentful APIs."
+        ],
+        "correct": [
+            "They reduce the amount of requests required to perform operations in Contentful.",
+            "They reduce complexity of code by abstracting complex operations such as authentication, include resolution, and request retries."
+        ]
+    },
+    {
+        "question": "Which two tactics will help you decrease query complexity when using the GraphQL API?",
+        "options": [
+            "Using GraphQL fragments",
+            "Adding a \"limit\" to collection field",
+            "Increasing API rate limits",
+            "Ordering fields alphabetically in your query"
+        ],
+        "correct": [
+            "Using GraphQL fragments",
+            "Adding a \"limit\" to collection field"
+        ]
+    },
+    {
+        "question": "For a successful scheduled publishing event to occur, an entry must be in either of which two states? Select 2 Correct Responses",
+        "options": [
+            "Archived",
+            "Draft",
+            "Changed",
+            "Deleted"
+        ],
+        "correct": [
+            "Draft",
+            "Changed"
+        ]
+    },
+    {
+        "question": "What is the main purpose of environments within a space in Contentful?",
+        "options": [
+            "To separate data according to the structure of projects",
+            "To serve as a platform for implementing custom business logic or workflows",
+            "To provide a way to manage content model across different stages of the development and deployment lifecycle",
+            "To provide real-time collaboration for multiple team members to edit content and preview front-end experience"
+        ],
+        "correct": [
+            "To provide a way to manage content model across different stages of the development and deployment lifecycle"
+        ]
+    },
+    {
+        "question": "When refactoring your content model, what pattern is recommended to follow?",
+        "options": [
+            "Expand / contract",
+            "Commit / push",
+            "Extend / deploy",
+            "BeamMe / up"
+        ],
+        "correct": [
+            "Expand / contract"
+        ]
+    },
+    {
+        "question": "You need to trigger a webhook when an entry is published. What webhook triggering events combination do you need to set up in Contentful?",
+        "options": [
+            "Entry/save",
+            "Content type/publish",
+            "Content type/save",
+            "Entry/publish"
+        ],
+        "correct": [
+            "Entry/publish"
+        ]
+    },
+    {
+        "question": "Which two statements include operations that can be performed by the Contentful CLI? Select 2 Correct Responses",
+        "options": [
+            "Generate and run migration scripts.",
+            "Deploy your application.",
+            "Import and export content, content model, and other space configuration.",
+            "Install and manage Apps and Extensions."
+        ],
+        "correct": [
+            "Generate and run migration scripts.",
+            "Import and export content, content model, and other space configuration."
+        ]
+    },
+    {
+        "question": "Which statement is true about environments when creating a space for the first time?",
+        "options": [
+            "It will come only with a default master environment.",
+            "It will come with no environments.",
+            "It will come with a master and sandbox environment.",
+            "It will come with a master and development environment."
+        ],
+        "correct": [
+            "It will come only with a default master environment."
+        ]
+    },
+    {
+        "question": "Which two advantages does Contentful's multiple API approach offer when compared to having a single comprehensive API? Select 2 Correct Responses",
+        "options": [
+            "Developers can choose to work with any API they prefer.",
+            "Distinct APIs accommodate more programming languages.",
+            "Different APIs can be optimized for different tasks.",
+            "Production applications are more secure because delivery APIs are read-only."
+        ],
+        "correct": [
+            "Different APIs can be optimized for different tasks.",
+            "Production applications are more secure because delivery APIs are read-only."
+        ]
+    },
+    {
+        "question": "What are two main functions of a space in Contentful? Select 2 Correct Responses",
+        "options": [
+            "To manage billing and subscriptions",
+            "To manage users belonging to multiple teams",
+            "To allow separation of data according to the structure of projects, services, or business units",
+            "To serve as the individual repository or content and settings related to that content"
+        ],
+        "correct": [
+            "To allow separation of data according to the structure of projects, services, or business units",
+            "To serve as the individual repository or content and settings related to that content"
+        ]
+    },
+    {
+        "question": "When you develop an app for Contentful using the App Framework, where is the app hosted?",
+        "options": [
+            "App hosting is limited to Contentful's servers only.",
+            "Apps must be hosted on external servers outside of Contentful.",
+            "Apps need to be hosted on a static sit",
+            "Apps can be hosted on Contentful or specified public URLs."
+        ],
+        "correct": [
+            "Apps can be hosted on Contentful or specified public URLs."
+        ]
+    },
+    {
+        "question": "Which content modeling pattern should be used to allow authors to manage small pieces of text in an application, without having to modify the source code?",
+        "options": [
+            "Personalization",
+            "Dynamic microcopy",
+            "Field-level localization",
+            "One-to-many reference field"
+        ],
+        "correct": [
+            "Dynamic microcopy"
+        ]
+    },
+    {
+        "question": "Your team has decided that an existing content model needs to be updated. Which two statements regarding the iteration of a content model are true? Select 2 Correct Responses",
+        "options": [
+            "Content models must be manually edited on the master environment in order to deploy changes.",
+            "When testing the addition of new fields, old and/or deprecated fields should be disabled before they are fully remove",
+            "The frontend will most likely not need to be updated to account for any content model changes.",
+            "Content models should be iterated upon in a sandbox environment within a Contentful space before promoting to a production environment."
+        ],
+        "correct": [
+            "When testing the addition of new fields, old and/or deprecated fields should be disabled before they are fully remove",
+            "Content models should be iterated upon in a sandbox environment within a Contentful space before promoting to a production environment."
+        ]
+    },
+    {
+        "question": "Which two statements are common webhooks use cases? Select 2 Correct Responses",
+        "options": [
+            "Notifications to external services",
+            "Environment deletions",
+            "User creation",
+            "CI (Continuous integration)"
+        ],
+        "correct": [
+            "Notifications to external services",
+            "CI (Continuous integration)"
+        ]
+    },
+    {
+        "question": "Which two statements are true about reference fields within Contentful? Select 2 Correct Responses",
+        "options": [
+            "Reference fields allow you to link entries from other spaces.",
+            "When a reference field is used, it has to link more than one entry.",
+            "References allow you to copy and paste content from other entries.",
+            "A reference field can limit entries to specific content types through validation."
+        ],
+        "correct": [
+            "Reference fields allow you to link entries from other spaces.",
+            "A reference field can limit entries to specific content types through validation."
+        ]
+    },
+    {
+        "question": "What is a \"content type\" in Contentful?",
+        "options": [
+            "A predefined layout for the website design",
+            "A piece of information that is associated with an entry.",
+            "A specific entry within a content model",
+            "A blueprint that defines the structure of entries"
+        ],
+        "correct": [
+            "A blueprint that defines the structure of entries"
+        ]
+    },
+    {
+        "question": "In terms of content modeling in Contentful, which two statements about topics and assemblies are true? Select 2 Correct Responses",
+        "options": [
+            "Topics are the building blocks for assemblies.",
+            "Topics are individually authorable and are always reusabl",
+            "Topics should contain presentation options.",
+            "Topics should contain references to assemblies."
+        ],
+        "correct": [
+            "Topics are the building blocks for assemblies.",
+            "Topics are individually authorable and are always reusabl"
+        ]
+    },
+    {
+        "question": "Which two approaches provide content governance in scenarios where your organization has a mix of global, regional, and local content teams? Select 2 Correct Responses",
+        "options": [
+            "Implementing multi-space architecture",
+            "Implementing a single workflow for all content teams",
+            "Using custom roles and permissions",
+            "Using multiple sandbox environments"
+        ],
+        "correct": [
+            "Implementing multi-space architecture",
+            "Using custom roles and permissions"
+        ]
+    },
+    {
+        "question": "How does Contentful handle space roles for a user who is a member of multiple spaces?",
+        "options": [
+            "The user can have different roles for each spac",
+            "The user is assigned a single role that applies to all spaces.",
+            "The user cannot be a member of multiple spaces.",
+            "The user must have the same role in all spaces."
+        ],
+        "correct": [
+            "The user can have different roles for each spac"
+        ]
+    },
+    {
+        "question": "Which three appearance options are available for short text fields? Select 3 Correct Responses",
+        "options": [
+            "Slug",
+            "Asset card",
+            "Radio button",
+            "Dropdown"
+        ],
+        "correct": [
+            "Slug",
+            "Radio button",
+            "Dropdown"
+        ]
+    },
+    {
+        "question": "What is one of the ben benefits of choosing entry-level localization over field-level localization?",
+        "options": [
+            "Entry-level localization is built into Contentful, allowing publishing of locales to be done synchronously.",
+            "Entry-level localization is the only pattern that allows you to leverage Contentful's locale fallback logi",
+            "Entry-level localization allows you to publish content for one specific locale without having to publish content for all other locales at the same tim",
+            "Entry-level localization allows you to enact governance by restricting different roles"
+        ],
+        "correct": [
+            "Entry-level localization allows you to publish content for one specific locale without having to publish content for all other locales at the same tim"
+        ]
+    },
+    {
+        "question": "Which two statements are true about creating and managing entries in the web app? Select 2 Correct Responses",
+        "options": [
+            "Entries can be scheduled to be published at a specified tim",
+            "Publishing an entry requires using the Content Management API.",
+            "Content types define the structure and fields of the entry.",
+            "Authors should make sure they click the \"Save\" button to save an entry."
+        ],
+        "correct": [
+            "Entries can be scheduled to be published at a specified tim",
+            "Content types define the structure and fields of the entry."
+        ]
+    },
+    {
+        "question": "What are two signs that you are properly modeling content within Contentful? Select 2 Correct Responses",
+        "options": [
+            "You have built your custom apps and webhooks successfully in Contentful.",
+            "You combine multiple types of data in a single fiel",
+            "Your authors can easily reuse chunks of content without the need for duplication.",
+            "You have a modular content model that uses reference fields to link related content when neede"
+        ],
+        "correct": [
+            "Your authors can easily reuse chunks of content without the need for duplication.",
+            "You have a modular content model that uses reference fields to link related content when neede"
+        ]
+    },
+    {
+        "question": "Which two strategies are typically recommended for asset management? Select 2 Correct Responses",
+        "options": [
+            "Use an app that integrates with an external Digital Asset Management system.",
+            "Create separate assets for each needed display resolution.",
+            "Use Contentful to serve adaptive bitrate video streaming.",
+            "Create a content type for assets that includes useful metadat"
+        ],
+        "correct": [
+            "Use an app that integrates with an external Digital Asset Management system.",
+            "Create a content type for assets that includes useful metadat"
+        ]
+    },
+    {
+        "question": "You are building a new mobile app based on your content in Contentful and you want to ensure your users can access information even in Offline Mode. Which API will you use?",
+        "options": [
+            "Content Preview API",
+            "Content Delivery API",
+            "Content Management API",
+            "Sync API"
+        ],
+        "correct": [
+            "Sync API"
+        ]
+    },
+    {
+        "question": "What are four ways in which you can use content modeling to improve the content authoring experience? Select 4 Correct Responses",
+        "options": [
+            "Ensure that a field's name and ID properly match.",
+            "Add quality help text to a field when applicabl",
+            "Update the field's appearance to better suit the data being displaye",
+            "Add validations to ensure only certain content types can be referenced in a given reference fiel",
+            "Set a default value for fields that often contain the same value (i."
+        ],
+        "correct": [
+            "Add quality help text to a field when applicabl",
+            "Update the field's appearance to better suit the data being displaye",
+            "Add validations to ensure only certain content types can be referenced in a given reference fiel",
+            "Set a default value for fields that often contain the same value (i."
+        ]
+    },
+    {
+        "question": "How are environment aliases used in Contentful?",
+        "options": [
+            "Making the id of the environment from the users",
+            "Allowing any environment to act as the master environment",
+            "Assisting content authors with automating content entry",
+            "Allowing multiple environments to have the same name"
+        ],
+        "correct": [
+            "Allowing any environment to act as the master environment"
+        ]
+    },
+    {
+        "question": "When creating a new environment in Contentful, which two elements are typically copied from the cloned environment? Select 2 Correct Responses",
+        "options": [
+            "Content",
+            "Roles",
+            "Content types",
+            "Users"
+        ],
+        "correct": [
+            "Content",
+            "Content types"
+        ]
+    },
+    {
+        "question": "What are three benefits of environment aliases? Select 3 Correct Responses",
+        "options": [
+            "Giving content creators access to multiple environments for production content creation",
+            "Allowing instant rollbacks to previous environments when a bug is discovered after a new release",
+            "Creating automated CI/CD deployment pipelines",
+            "Enabling blue-green deployments easily"
+        ],
+        "correct": [
+            "Allowing instant rollbacks to previous environments when a bug is discovered after a new release",
+            "Creating automated CI/CD deployment pipelines",
+            "Enabling blue-green deployments easily"
+        ]
+    },
+    {
+        "question": "Which field type is recommended to balance omnichannel delivery with authors' ability to format text?",
+        "options": [
+            "Short text",
+            "Markdown",
+            "Long text",
+            "Rich text"
+        ],
+        "correct": [
+            "Rich text"
+        ]
+    },
+    {
+        "question": "What are two benefits of using Contentful CLI tools? Select 2 Correct Responses",
+        "options": [
+            "It allows developers to administer Contentful programmatically and automate manual admin tasks.",
+            "It allows developers to quickly update a simple content entry.",
+            "It lets developers move a content model to multiple spaces and cross environment faster.",
+            "It lets developers choose any SDKs they prefer."
+        ],
+        "correct": [
+            "It allows developers to administer Contentful programmatically and automate manual admin tasks.",
+            "It lets developers move a content model to multiple spaces and cross environment faster."
+        ]
+    },
+    {
+        "question": "What are two advantages of using a Static Site Generator in conjunction with Contentful? Select 2 Correct Responses",
+        "options": [
+            "It offers fast load times for displaying content.",
+            "It conceals API authorization tokens from users.",
+            "It enables omnichannel delivery to various digital devices.",
+            "It guarantees that users see the latest version of content."
+        ],
+        "correct": [
+            "It offers fast load times for displaying content.",
+            "It enables omnichannel delivery to various digital devices."
+        ]
+    },
+    {
+        "question": "Which technologies are commonly used to build Contentful apps and extend the functionality of the Contentful web app?",
+        "options": [
+            "Ruby on Rails",
+            "PHP and Laravel",
+            "Python and Django",
+            "JavaScript and React"
+        ],
+        "correct": [
+            "JavaScript and React"
+        ]
+    },
+    {
+        "question": "What are two good reasons to use a multi-space architecture in Contentful? Select 2 Correct Responses",
+        "options": [
+            "To decrease content display load time for users",
+            "To allow selective sharing of content across an organization",
+            "To support multiple levels of regionalized and localized content",
+            "To minimize the number of API calls developers need to make"
+        ],
+        "correct": [
+            "To allow selective sharing of content across an organization",
+            "To support multiple levels of regionalized and localized content"
+        ]
+    },
+    {
+        "question": "Which two tasks are involved in configuring live preview? Select 2 Correct Responses",
+        "options": [
+            "Changing code to activate the feature",
+            "Initializing the live preview SDK",
+            "Adding a new, preview-specific content type",
+            "Configuring content preview in the web app"
+        ],
+        "correct": [
+            "Initializing the live preview SDK",
+            "Configuring content preview in the web app"
+        ]
+    },
+    {
+        "question": "What is the name for the delivery architecture where fully rendered files are pre-generated and stored in an intermediate cache or file server?",
+        "options": [
+            "Client-side rendering (CSR) / Dynamic on device",
+            "Backend for frontend (BFF)",
+            "Server-side rendering (SSR) / Dynamic on server",
+            "Static-site generator (SSG)"
+        ],
+        "correct": [
+            "Static-site generator (SSG)"
+        ]
+    },
+    {
+        "question": "What are two primary purposes of the App Framework in Contentful? Select 2 Correct Responses",
+        "options": [
+            "To manage and uninstall apps within the web app",
+            "To provide ready-to-use templates for building custom apps",
+            "To improve workflows and editorial experience for content creators",
+            "To integrate Contentful with third-party services and build custom integrations"
+        ],
+        "correct": [
+            "To improve workflows and editorial experience for content creators",
+            "To integrate Contentful with third-party services and build custom integrations"
+        ]
+    },
+    {
+        "question": "The Contentful CLI tool is built on top of which API?",
+        "options": [
+            "Content Delivery API",
+            "Content Management API",
+            "Preview API",
+            "Images API"
+        ],
+        "correct": [
+            "Content Management API"
+        ]
+    },
+    {
+        "question": "What is a “space role”?",
+        "options": [
+            "A role assigned to a user across the entire organization, granting them global permission",
+            "A role assigned to a user within a specific space, granting them a set of permission within that space",
+            "A role assigned to a user within the organization’s master environment",
+            "A role assigned to a user within the organization’s billing department"
+        ],
+        "correct": [
+            "A role assigned to a user within a specific space, granting them a set of permission within that space"
+        ]
+    },
+    {
+        "question": "What should you do when you see recommended actions when you try to merge content types via the merge app?",
+        "options": [
+            "Follow the instruction to resolve conflict",
+            "Proceed to merge content types",
+            "Review changes in JSON",
+            "Go to the previous page to see side by side comparison"
+        ],
+        "correct": [
+            "Follow the instruction to resolve conflict"
+        ]
+    },
+    {
+        "question": "Which three image transformations can be performed with the images API?",
+        "options": [
+            "Removing image background",
+            "Overlaying a filter",
+            "Changing format (i.",
+            "Resizing and cropping",
+            "Specifying focus area"
+        ],
+        "correct": [
+            "Changing format (i.",
+            "Resizing and cropping",
+            "Specifying focus area"
+        ]
+    },
+    {
+        "question": "Which format are Contentful’s rich text fields represented as?",
+        "options": [
+            "Html and CSS",
+            "JSON",
+            "Markdown",
+            "XML"
+        ],
+        "correct": [
+            "JSON"
+        ]
+    },
+    {
+        "question": "How does a user get their organization role in Contentful?",
+        "options": [
+            "They let the organization admin know what role they want.",
+            "They are assigned to an organization role when the organization admin invites them to an organization.",
+            "They are assigned to an organization role based on their space rol",
+            "They are assigned to an organization role base on the their organization’s subscription type in Contentful"
+        ],
+        "correct": [
+            "They are assigned to an organization role when the organization admin invites them to an organization."
+        ]
+    },
+    {
+        "question": "An author requires the ability to store additional metadata regarding an image uploaded as an asset to Contentful. What is one recommended method to store this content within Contentful?",
+        "options": [
+            "Store the additional metadata within the description field on the asset itself",
+            "Encode additional metadata within the title field in the asset itself",
+            "Assign tags to each asset where each tag represents a piece of metadata that can be stored in a structured manner.",
+            "Create an “image wrapper” content type that includes a media reference field and fields for additional metadat"
+        ],
+        "correct": [
+            "Create an “image wrapper” content type that includes a media reference field and fields for additional metadat"
+        ]
+    },
+    {
+        "question": "What are three advantages of using Contentful’s client libraries over their REST APIs?",
+        "options": [
+            "It provides built-in error checking",
+            "It enables faster development",
+            "It helps to ensure best coding practices",
+            "It provides more fine-grained control over Contentful’s CDN layer"
+        ],
+        "correct": [
+            "It provides built-in error checking",
+            "It enables faster development",
+            "It helps to ensure best coding practices"
+        ]
+    },
+    {
+        "question": "Which two tasks are space admins allowed to perform?",
+        "options": [
+            "Editing permissions for each role within a space",
+            "Duplicating roles",
+            "Adding spaces",
+            "Seeing all of the spaces within a Contentful organization"
+        ],
+        "correct": [
+            "Editing permissions for each role within a space",
+            "Duplicating roles"
+        ]
+    },
+    {
+        "question": "What are two ways of nesting entries in the contentful web app?",
+        "options": [
+            "Drag and drop an entry from the content tab",
+            "Type an entry ID in angle brackets in the text editor",
+            "Embed an entry within the Rich Text editor",
+            "Link to an entry via a reference field"
+        ],
+        "correct": [
+            "Embed an entry within the Rich Text editor",
+            "Link to an entry via a reference field"
+        ]
+    },
+    {
+        "question": "If you have a need to publish a required field with localized content asynchronously, what design pattern is recommended to use?",
+        "options": [
+            "Field-level localization",
+            "Entry-level localization",
+            "Organization-level localization",
+            "Environment-level localization"
+        ],
+        "correct": [
+            "Entry-level localization"
+        ]
+    },
+    {
+        "question": "Which three changes can trigger webhooks in Contentful",
+        "options": [
+            "Changes to roles and permissions",
+            "Entry creation",
+            "Saving changes to content types",
+            "Asset Update"
+        ],
+        "correct": [
+            "Entry creation",
+            "Saving changes to content types",
+            "Asset Update"
+        ]
+    },
+    {
+        "question": "Which two statements are true about assets in Contentful?",
+        "options": [
+            "Draft assets can be retrieved with the Preview API",
+            "In the Media tab, an asset can be linked to other assets by using a reference field",
+            "When adding an asset from the Media tab, users can specify a category and keywords",
+            "Assets can be localized using field or entry-level localization"
+        ],
+        "correct": [
+            "Draft assets can be retrieved with the Preview API",
+            "Assets can be localized using field or entry-level localization"
+        ]
+    },
+    {
+        "question": "Which statement is true regarding storing location data within Contentful?",
+        "options": [
+            "The JSON response for a location field only contains a physical address",
+            "The JSON response for a location field only contains a latitude/longitude coordinates",
+            "It is not recommended to store location date within Contentful",
+            "The JSON response for a location field contains both physical address and latitude/longitude coordinates"
+        ],
+        "correct": [
+            "The JSON response for a location field only contains a latitude/longitude coordinates"
+        ]
+    },
+    {
+        "question": "As a developer, you want to use environment aliases for your releases. What is true about using aliases?",
+        "options": [
+            "Environment aliases are mostly used by editors",
+            "An environment alias points to one single environment at a time",
+            "Environment aliases cannot be used with CLI or migration scripts",
+            "Environment aliases are assigned on space creation"
+        ],
+        "correct": [
+            "An environment alias points to one single environment at a time"
+        ]
+    },
+    {
+        "question": "Which Contentful API is cached through a CDN?",
+        "options": [
+            "Content Delivery API",
+            "Content Preview API",
+            "Content Management API",
+            "User Management API"
+        ],
+        "correct": [
+            "Content Delivery API"
+        ]
+    },
+    {
+        "question": "Which two capabilities do assemblies enable?",
+        "options": [
+            "Giving data to front-end rendering code on how to display the content on various digital devices",
+            "Allowing content creators to choose component structure for a page",
+            "Using the Rich Text Editor to indicate text that should be bold or italic",
+            "Optimizing caching of content across multiple CDNs"
+        ],
+        "correct": [
+            "Giving data to front-end rendering code on how to display the content on various digital devices",
+            "Allowing content creators to choose component structure for a page"
+        ]
+    },
+    {
+        "question": "What are three good types of content to store in Contentful?",
+        "options": [
+            "Localized content",
+            "Microcopy",
+            "CSS",
+            "SEO metadata"
+        ],
+        "correct": [
+            "Localized content",
+            "Microcopy",
+            "SEO metadata"
+        ]
+    },
+    {
+        "question": "Which two of the following are part of a content type definition?",
+        "options": [
+            "Font and background color",
+            "Name and description",
+            "Validation and help text",
+            "SEO metadata and slug"
+        ],
+        "correct": [
+            "Name and description",
+            "Validation and help text"
+        ]
+    },
+    {
+        "question": "When defining permissions for a custom role in Contentful, what happens if a certain action is not explicitly allowed?",
+        "options": [
+            "It is automatically allowed",
+            "It depends on the space admin’s discretion",
+            "It is denied",
+            "It depends on the user’s subscription type"
+        ],
+        "correct": [
+            "It is denied"
+        ]
+    },
+    {
+        "question": "Imagine you’re building a mobile app for a news organization that needs to display the latest articles on their front page. You want to programmatically retrieve the published articles from your Contentful space and display them in the app. Which Contentful API should you use for this purpose?",
+        "options": [
+            "Content Management API",
+            "Sync API",
+            "Content Delivery API",
+            "GraphQL API"
+        ],
+        "correct": [
+            "Content Delivery API"
+        ]
+    },
+    {
+        "question": "Which three Contentful APIs are read only?",
+        "options": [
+            "Content Delivery API",
+            "Content Management API",
+            "Images API",
+            "Content Preview API"
+        ],
+        "correct": [
+            "Content Delivery API",
+            "Images API",
+            "Content Preview API"
+        ]
+    },
+    {
+        "question": "What does the Merge app simplify for a user?",
+        "options": [
+            "Merging all content from a sandbox environment into the master environment",
+            "Merging multiple spaces into a single space within an organization",
+            "Generating a script to sync content models between environments",
+            "Changing the environment alias for the master environment"
+        ],
+        "correct": [
+            "Generating a script to sync content models between environments"
+        ]
+    },
+    {
+        "question": "Which three tasks are organization admins in Contentful allowed to perform?",
+        "options": [
+            "Adding a new space",
+            "Managing teams",
+            "Viewing billing and subscription information <- Wrong, only org owner can see billing info",
+            "Inviting new users to the organization"
+        ],
+        "correct": [
+            "Adding a new space",
+            "Managing teams",
+            "Inviting new users to the organization"
+        ]
+    },
+    {
+        "question": "What is the recommended migration pattern?",
+        "options": [
+            "Contract, transform, expand",
+            "Expand, transform, contract.",
+            "Transform, expand, contract",
+            "Expand, contract, transform"
+        ],
+        "correct": [
+            "Expand, transform, contract."
+        ]
+    },
+    {
+        "question": "Which three statements apply to Contentful’s GraphQL implementation?",
+        "options": [
+            "It provides both read and write access",
+            "It has strongly typed schemas",
+            "It is backed by CDN",
+            "It can be used to access both published and draft content"
+        ],
+        "correct": [
+            "It has strongly typed schemas",
+            "It is backed by CDN",
+            "It can be used to access both published and draft content"
+        ]
+    },
+    {
+        "question": "Which are three benefits of environment aliases?",
+        "options": [
+            "Enabling blue-green deployments easily",
+            "Giving content creators access to multiple environments for production content creation",
+            "Allowing instant rollback to previous environment when a bug is discovered after a new release",
+            "Creating automated CI/CD deployment pipelines"
+        ],
+        "correct": [
+            "Enabling blue-green deployments easily",
+            "Allowing instant rollback to previous environment when a bug is discovered after a new release",
+            "Creating automated CI/CD deployment pipelines"
+        ]
+    },
+    {
+        "question": "Which two operations are possible with content model migrations?",
+        "options": [
+            "Transform existing entries or create new entries that are derived from content model changes",
+            "Migrate application code",
+            "Create and edit existing content types",
+            "Migrate content across environments"
+        ],
+        "correct": [
+            "Transform existing entries or create new entries that are derived from content model changes",
+            "Create and edit existing content types"
+        ]
+    },
+    {
+        "question": "How can using teams help manage large groups of users in Contentful?",
+        "options": [
+            "By allowing every user to have individual account",
+            "By grouping users together and assigning them to a space all at once",
+            "By requiring all users to have the same role in a space",
+            "By limiting the number of users that can join a space"
+        ],
+        "correct": [
+            "By grouping users together and assigning them to a space all at once"
+        ]
+    },
+    {
+        "question": "What is the purpose of the “Inspector mode” in live preview?",
+        "options": [
+            "To check data attributes",
+            "To preview website styling",
+            "To locate and edit specific content fields easily",
+            "To identify and repair broken code"
+        ],
+        "correct": [
+            "To locate and edit specific content fields easily"
+        ]
+    },
+    {
+        "question": "What are two benefits of using Contentful CLI?",
+        "options": [
+            "It lets developers move a content model to multiple spaces and cross environment faster",
+            "It allows developers to quickly update a simple content entry",
+            "It lets developers choose any SDKs they prefer",
+            "It allows developers to administer Contentful programmatically and automate manual admin tasks"
+        ],
+        "correct": [
+            "It lets developers move a content model to multiple spaces and cross environment faster",
+            "It allows developers to administer Contentful programmatically and automate manual admin tasks"
+        ]
+    },
+    {
+        "question": "Which three aspects of webhooks are customizable in Contentful?",
+        "options": [
+            "Caching behavior",
+            "Event triggers",
+            "Authentication method",
+            "Target URL",
+            "Payload format"
+        ],
+        "correct": [
+            "Event triggers",
+            "Target URL",
+            "Payload format"
+        ]
+    },
+    {
+        "question": "When creating a new environment in Contentful, which two elements are typically copied the cloned environment?",
+        "options": [
+            "Content types",
+            "Roles",
+            "Users",
+            "Content"
+        ],
+        "correct": [
+            "Content types",
+            "Content"
+        ]
+    },
+    {
+        "question": "Which field type is recommended to balance omnichannel delivery with author’s ability to format text?",
+        "options": [
+            "Short text",
+            "Long text",
+            "Markdown",
+            "Rich text"
+        ],
+        "correct": [
+            "Rich text"
+        ]
+    },
+    {
+        "question": "What happens when an author tries to publish an entry that has unpublished linked content?",
+        "options": [
+            "The user receives a waring and is not allowed to publish the entry",
+            "The linked content is automatically published",
+            "The publish button is grayed out",
+            "The user receives a warning but can publish the entry anyway"
+        ],
+        "correct": [
+            "The user receives a warning but can publish the entry anyway"
+        ]
+    },
+    {
+        "question": "What is a key benefit of using references across spaces in Contentful’s content orchestration?",
+        "options": [
+            "It eliminates the need to use migration scripts",
+            "It allows for modular content development and reuse across projects",
+            "It reduces the number of spaces needed for an organization",
+            "I centralizes all content creation in a single space"
+        ],
+        "correct": [
+            "It allows for modular content development and reuse across projects"
+        ]
+    },
+    {
+        "question": "What are three advantages of using structured content?",
+        "options": [
+            "Providing different access levels by content creators based upon roles",
+            "Enabling content creation that can be delivered across multiple devices and channels",
+            "Customizing the Contentful web app",
+            "Enabling delivery of personalized content to target audiences"
+        ],
+        "correct": [
+            "Providing different access levels by content creators based upon roles",
+            "Enabling content creation that can be delivered across multiple devices and channels",
+            "Enabling delivery of personalized content to target audiences"
+        ]
+    },
+    {
+        "question": "What are two benefits of scripting content model changes via migration scripts?",
+        "options": [
+            "The scripts can be saved in source control",
+            "The scripts allow real-time synchronization of content",
+            "The scripts are easier to read by a developer",
+            "The scripts can be run by CI/CD"
+        ],
+        "correct": [
+            "The scripts can be saved in source control",
+            "The scripts can be run by CI/CD"
+        ]
+    },
+    {
+        "question": "Which two content categories can assemblies contain?",
+        "options": [
+            "Other assemblies",
+            "Templates",
+            "Topics",
+            "Roles and permissions"
+        ],
+        "correct": [
+            "Other assemblies",
+            "Topics"
+        ]
+    },
+    {
+        "question": "In the Contentful domain model, which entity does the content model belong to?",
+        "options": [
+            "Locale",
+            "Account",
+            "Environment",
+            "Organization"
+        ],
+        "correct": [
+            "Environment"
+        ]
+    },
+    {
+        "question": "Before working on content model changes, what should developers do?",
+        "options": [
+            "Install Contentful in your favorite IDE",
+            "Change the environment alias to point to the master environment",
+            "Download all of the content types as JSON",
+            "Create a new environment to make your model changes"
+        ],
+        "correct": [
+            "Create a new environment to make your model changes"
+        ]
+    },
+    {
+        "question": "You are migrating content into Contentful from a legacy system and you want to automate the process using Contenful’s APIs. Which API will you use?",
+        "options": [
+            "Content Delivery API",
+            "Content Management API",
+            "Content Preview API",
+            "Sync API"
+        ],
+        "correct": [
+            "Content Management API"
+        ]
+    },
+    {
+        "question": "What are two uses of the Contentful CLI tool?",
+        "options": [
+            "Start and stop your development server",
+            "Create the scaffolding for a Contentful app",
+            "Export and import content and models",
+            "Send messages to other Contentful users of the space"
+        ],
+        "correct": [
+            "Create the scaffolding for a Contentful app",
+            "Export and import content and models"
+        ]
+    },
+    {
+        "question": "Within Contentful's domain model, which level manages an app's \"App definitions?\"",
+        "options": [
+            "Environment level",
+            "Space level",
+            "Organization level",
+            "Team level"
+        ],
+        "correct": [
+            "Organization level"
+        ]
+    },
+    {
+        "question": "Which two statements are true about environments in Contentful? 16078403",
+        "options": [
+            "The sandbox environment maintains a version history of content changes.",
+            "The sandbox environment is used for development and testing.",
+            "The master environment can be deleted and rename",
+            "The master environment is the default environment."
+        ],
+        "correct": [
+            "The sandbox environment is used for development and testing.",
+            "The master environment is the default environment."
+        ]
+    },
+    {
+        "question": "How can you prevent undesired changes to shared content when using the \"references across spaces\" feature?",
+        "options": [
+            "Make sure only one user has the Edit access.",
+            "Set up user roles with custom permissions.",
+            "Limit the use of the feature to two spaces.",
+            "Remove access to shared content after setup."
+        ],
+        "correct": [
+            "Set up user roles with custom permissions."
+        ]
+    },
+    {
+        "question": "Which statement is true regarding creating an entry in the Contentful web app?",
+        "options": [
+            "Entries are always published immediately upon creation.",
+            "You can choose to publish the entry right away or save it as a draft.",
+            "Draft entries cannot be published later.",
+            "Entries can only be published via Content Management API."
+        ],
+        "correct": [
+            "You can choose to publish the entry right away or save it as a draft."
+        ]
+    },
+    {
+        "question": "In which two scenarios might using multiple spaces be beneficial within Contentful's multi-space architecture?",
+        "options": [
+            "Hosting all content for different projects in a single space",
+            "Creating isolated environments for development, testing, and production",
+            "Managing content for different brands within separate spaces",
+            "Sharing a single space among multiple teams with different roles",
+            "Combining all content from various projects into one unified space"
+        ],
+        "correct": [
+            "Creating isolated environments for development, testing, and production",
+            "Managing content for different brands within separate spaces"
+        ]
+    },
+    {
+        "question": "Which three statements are benefits to managing content with code? 16078403",
+        "options": [
+            "Content models can be managed in the same version control system as the application softwar",
+            "Large-scale content changes can be automated through Contentful's Migration tool.",
+            "Multi-step \"expand and contract\" content model changes can be safely deploye",
+            "API responses have higher CDN cache rates."
+        ],
+        "correct": [
+            "Content models can be managed in the same version control system as the application softwar",
+            "Large-scale content changes can be automated through Contentful's Migration tool.",
+            "Multi-step \"expand and contract\" content model changes can be safely deploye"
+        ]
+    },
+    {
+        "question": "Which task is exclusive to the Rich Text field and cannot be performed in the Text field?",
+        "options": [
+            "Organize links",
+            "Create bulleted lists",
+            "Format text",
+            "Embed entries"
+        ],
+        "correct": [
+            "Embed entries"
+        ]
+    },
+    {
+        "question": "Which three statements are correct about the Dynamic on Server delivery method? 16078403",
+        "options": [
+            "Always serves up pre-built HTML pages",
+            "Requires one or more web servers for execution",
+            "Enables storing API tokens securely",
+            "Leverages Contentful’s CDNs"
+        ],
+        "correct": [
+            "Requires one or more web servers for execution",
+            "Enables storing API tokens securely",
+            "Leverages Contentful’s CDNs"
+        ]
+    },
+    {
+        "question": "What is one of the first steps in content modeling? 16078403",
+        "options": [
+            "Assembling key stakeholders",
+            "Setting up CI/CD workflows",
+            "Creating dev, staging and test environments",
+            "Defining custom roles and permissions"
+        ],
+        "correct": [
+            "Assembling key stakeholders"
+        ]
+    },
+    {
+        "question": "When is the expand/contract flow used in Contentful? 16078403",
+        "options": [
+            "To temporarily increase the number of users in a space",
+            "To add more content models in a space",
+            "To increase the number of entries allowed in a space",
+            "To update a content model safely"
+        ],
+        "correct": [
+            "To update a content model safely"
+        ]
+    },
+    {
+        "question": "Contentful supports the delivery architecture \"dynamic on server,\" which is also typically referred to as \"server-side rendering\" architecture. Which use case is a good fit for this architecture?",
+        "options": [
+            "A/B testing",
+            "Offline content access",
+            "Real-time streaming",
+            "Static documentation websites"
+        ],
+        "correct": [
+            "A/B testing"
+        ]
+    },
+    {
+        "question": "If you want to provide content authors with the ability to include copyright information with their third party media files, which modeling technique might you use?",
+        "options": [
+            "Use Contentful's default media tab",
+            "Use a DAM",
+            "Create a content type for the media file"
+        ],
+        "correct": [
+            "Use a DAM",
+            "Create a content type for the media file"
+        ]
+    },
+    {
+        "question": "You want to personalize the homepage of your website based on the actions of an anonymous user visiting your website built with Contentful. You can achieve this without a personalization engine using categories and authoring unique page entries for each audience.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct": [
+            "False"
+        ]
+    },
+    {
+        "question": "Choose the type of delivery architecture for the following scenario. You have content that has marketing copy, e-commerce with product images, customer data, pricing info, as well as info from third parties. What type of delivery method listed below will you choose.",
+        "options": [
+            "Static site generator (SSG)",
+            "Hybrid method",
+            "Dynamic on server",
+            "Dynamic on device"
+        ],
+        "correct": [
+            "Hybrid method"
+        ]
+    },
+    {
+        "question": "Which of the following statements about getting started with content orchestration features is true?",
+        "options": [
+            "A developer must first connect spaces in your organization with cod",
+            "A space administrator must first enable orchestration for the spaces in your organization.",
+            "An organization administrator must first enable orchestration for the spaces in your organization.",
+            "Any organization member can enable orchestration features from the Spaces tab of their organization settings."
+        ],
+        "correct": [
+            "An organization administrator must first enable orchestration for the spaces in your organization."
+        ]
+    },
+    {
+        "question": "Is the following statement true or false? \"Anything that is not explicitly allowed is denied.\" Select your answer below. Then select Submit",
+        "options": [
+            "False",
+            "True"
+        ],
+        "correct": [
+            "True"
+        ]
+    },
+    {
+        "question": "Contentful users can have multiple roles within a space (either through teams or individual access rights). Select your answer below. Then select Submit",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct": [
+            "True"
+        ]
+    },
+    {
+        "question": "If you want to display unpublished content for your content creators, what API would you use? Select the answer below and click \"Submit.\" You will have two attempts.",
+        "options": [
+            "Delivery API",
+            "Web API",
+            "Preview API",
+            "Content API"
+        ],
+        "correct": [
+            "Preview API"
+        ]
+    },
+    {
+        "question": "Content authors usually want content previews set up for...",
+        "options": [
+            "page-like content types",
+            "fields",
+            "content models",
+            "every content type"
+        ],
+        "correct": [
+            "page-like content types"
+        ]
+    },
+    {
+        "question": "What do you need to log into your Contentful account and connect to your space via the command line?",
+        "options": [
+            "Content Preview API (CP",
+            "Organization ID",
+            "Content Delivery API (CD",
+            "Content Management API (CM"
+        ],
+        "correct": [
+            "Content Management API (CM"
+        ]
+    },
+    {
+        "question": "What’s the difference between the generate migration command and the rest of the migrations scripts?",
+        "options": [
+            "Generate migration command allows for multiple space backups at once, while migration scripts allow to backup only one space at a tim",
+            "Generate migration command can fetch the entire content model, while migration scripts allow you to make targeted changes to selected content types, entries, fields, and tags.",
+            "It’s the same thing",
+            "Generate migration command doesn’t provide a JSON file, while migration scripts does."
+        ],
+        "correct": [
+            "Generate migration command can fetch the entire content model, while migration scripts allow you to make targeted changes to selected content types, entries, fields, and tags."
+        ]
+    },
+    {
+        "question": "Which of the following is true about Contentful environments and workflows? Contentful provides a framework that …",
+        "options": [
+            "encourages having product releases go through building, testing and releasing everything at the same tim",
+            "makes the work by the content and development teams constantly interdependent.",
+            "is a one-size-fits-all with limiting options for the content and development teams.",
+            "decouples code from content where teams can work on different things simultaneously."
+        ],
+        "correct": [
+            "decouples code from content where teams can work on different things simultaneously."
+        ]
+    },
+    {
+        "question": "Your content creation team wants to make an edit to the Quote Component content type. They want authors to have formatting options for the text they enter, so therefore need to change out the short text field called Text with a rich text field called Quote. What should you do first?",
+        "options": [
+            "Add a new rich text field called Quot",
+            "Remove the short text field called Text.",
+            "Disable the short text field called Text."
+        ],
+        "correct": [
+            "Add a new rich text field called Quot"
+        ]
+    },
+    {
+        "question": "Which event listed below is NOT something webhooks are being called against?",
+        "options": [
+            "Content types",
+            "Fields",
+            "Entries",
+            "Assets"
+        ],
+        "correct": [
+            "Fields"
+        ]
+    }
+]
