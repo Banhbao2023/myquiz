@@ -1061,7 +1061,7 @@
         "options": [
             "Adding a new space",
             "Managing teams",
-            "Viewing billing and subscription information <- Wrong, only org owner can see billing info",
+            "Viewing billing and subscription information",
             "Inviting new users to the organization"
         ],
         "correct": [
