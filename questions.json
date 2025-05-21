@@ -158,13 +158,13 @@
     {
         "question": "What does a \"flexible assembly\" allow a content author to do?",
         "options": [
-            "Create a new reference field within a content typ",
+            "Create a new reference field within a content type",
             "Select locales to view in the web app.",
-            "Add inline text formatting such as bold and itali",
-            "Reorder linked entries within a one-to-many reference fiel"
+            "Add inline text formatting such as bold and italic",
+            "Reorder linked entries within a one-to-many reference field"
         ],
         "correct": [
-            "Reorder linked entries within a one-to-many reference fiel"
+            "Reorder linked entries within a one-to-many reference field"
         ]
     },
     {
@@ -269,26 +269,26 @@
     {
         "question": "How does the live preview SDK handle content updates from the entry editor?",
         "options": [
-            "It processes the updates and triggers an update to the preview websit",
+            "It processes the updates and triggers an update to the preview website",
             "It sends a notification for the user to preview the changes.",
             "It directly modifies the content in the entry editor.",
             "It triggers a browser refresh to update the preview."
         ],
         "correct": [
-            "It processes the updates and triggers an update to the preview websit"
+            "It processes the updates and triggers an update to the preview website"
         ]
     },
     {
         "question": "Which three conversions are supported in Contentful's library for rendering rich text? Select 3 Correct Responses",
         "options": [
-            "rich text to HTML",
-            "rich text to XML",
-            "rich text to React components",
+            "Rich text to HTML",
+            "Rich text to XML",
+            "Rich text to React components",
             "Markdown to rich text"
         ],
         "correct": [
-            "rich text to HTML",
-            "rich text to XML",
+            "Rich text to HTML",
+            "Rich text to XML",
             "Markdown to rich text"
         ]
     },
@@ -301,12 +301,12 @@
             "They provide a streamlined interface for accessing various resources across the different Contentful APIs."
         ],
         "correct": [
-            "They reduce the amount of requests required to perform operations in Contentful.",
-            "They reduce complexity of code by abstracting complex operations such as authentication, include resolution, and request retries."
+            "They reduce complexity of code by abstracting complex operations such as authentication, include resolution, and request retries.",
+			"They provide a streamlined interface for accessing various resources across the different Contentful APIs."
         ]
     },
     {
-        "question": "Which two tactics will help you decrease query complexity when using the GraphQL API?",
+        "question": "Which two stactics will help you decrease query complexity when using the GraphQL API?",
         "options": [
             "Using GraphQL fragments",
             "Adding a \"limit\" to collection field",
@@ -546,27 +546,27 @@
         ]
     },
     {
-        "question": "What is one of the ben benefits of choosing entry-level localization over field-level localization?",
+        "question": "What is one of the benefits of choosing entry-level localization over field-level localization?",
         "options": [
             "Entry-level localization is built into Contentful, allowing publishing of locales to be done synchronously.",
             "Entry-level localization is the only pattern that allows you to leverage Contentful's locale fallback logi",
-            "Entry-level localization allows you to publish content for one specific locale without having to publish content for all other locales at the same tim",
+            "Entry-level localization allows you to publish content for one specific locale without having to publish content for all other locales at the same time",
             "Entry-level localization allows you to enact governance by restricting different roles"
         ],
         "correct": [
-            "Entry-level localization allows you to publish content for one specific locale without having to publish content for all other locales at the same tim"
+            "Entry-level localization allows you to publish content for one specific locale without having to publish content for all other locales at the same time"
         ]
     },
     {
         "question": "Which two statements are true about creating and managing entries in the web app? Select 2 Correct Responses",
         "options": [
-            "Entries can be scheduled to be published at a specified tim",
+            "Entries can be scheduled to be published at a specified time",
             "Publishing an entry requires using the Content Management API.",
             "Content types define the structure and fields of the entry.",
             "Authors should make sure they click the \"Save\" button to save an entry."
         ],
         "correct": [
-            "Entries can be scheduled to be published at a specified tim",
+            "Entries can be scheduled to be published at a specified time",
             "Content types define the structure and fields of the entry."
         ]
     },
@@ -574,13 +574,13 @@
         "question": "What are two signs that you are properly modeling content within Contentful? Select 2 Correct Responses",
         "options": [
             "You have built your custom apps and webhooks successfully in Contentful.",
-            "You combine multiple types of data in a single fiel",
+            "You combine multiple types of data in a single field",
             "Your authors can easily reuse chunks of content without the need for duplication.",
-            "You have a modular content model that uses reference fields to link related content when neede"
+            "You have a modular content model that uses reference fields to link related content when needed"
         ],
         "correct": [
-            "Your authors can easily reuse chunks of content without the need for duplication.",
-            "You have a modular content model that uses reference fields to link related content when neede"
+            "Your authors can easily reuse chunks of content without the need for duplication",
+            "You have a modular content model that uses reference fields to link related content when needed"
         ]
     },
     {
@@ -589,11 +589,11 @@
             "Use an app that integrates with an external Digital Asset Management system.",
             "Create separate assets for each needed display resolution.",
             "Use Contentful to serve adaptive bitrate video streaming.",
-            "Create a content type for assets that includes useful metadat"
+            "Create a content type for assets that includes useful metadata"
         ],
         "correct": [
             "Use an app that integrates with an external Digital Asset Management system.",
-            "Create a content type for assets that includes useful metadat"
+            "Create a content type for assets that includes useful metadata"
         ]
     },
     {
@@ -612,16 +612,16 @@
         "question": "What are four ways in which you can use content modeling to improve the content authoring experience? Select 4 Correct Responses",
         "options": [
             "Ensure that a field's name and ID properly match.",
-            "Add quality help text to a field when applicabl",
-            "Update the field's appearance to better suit the data being displaye",
-            "Add validations to ensure only certain content types can be referenced in a given reference fiel",
-            "Set a default value for fields that often contain the same value (i."
+            "Add quality help text to a field when applicable",
+            "Update the field's appearance to better suit the data being displayed",
+            "Add validations to ensure only certain content types can be referenced in a given reference field",
+            "Set a default value for fields that often contain the same value (i.e. Boolean fields)."
         ],
         "correct": [
             "Add quality help text to a field when applicabl",
-            "Update the field's appearance to better suit the data being displaye",
-            "Add validations to ensure only certain content types can be referenced in a given reference fiel",
-            "Set a default value for fields that often contain the same value (i."
+            "Update the field's appearance to better suit the data being displayed",
+            "Add validations to ensure only certain content types can be referenced in a given reference field",
+            "Set a default value for fields that often contain the same value (i.e. Boolean fields)."
         ]
     },
     {
@@ -716,14 +716,14 @@
     {
         "question": "What are two good reasons to use a multi-space architecture in Contentful? Select 2 Correct Responses",
         "options": [
-            "To decrease content display load time for users",
-            "To allow selective sharing of content across an organization",
-            "To support multiple levels of regionalized and localized content",
-            "To minimize the number of API calls developers need to make"
+            "To decrease content display load time for users.",
+            "To allow selective sharing of content across an organization.",
+            "To support multiple levels of regionalized and localized content.",
+            "To minimize the number of API calls developers need to make."
         ],
         "correct": [
-            "To allow selective sharing of content across an organization",
-            "To support multiple levels of regionalized and localized content"
+            "To allow selective sharing of content across an organization.",
+            "To support multiple levels of regionalized and localized content."
         ]
     },
     {
@@ -742,9 +742,9 @@
     {
         "question": "What is the name for the delivery architecture where fully rendered files are pre-generated and stored in an intermediate cache or file server?",
         "options": [
-            "Client-side rendering (CSR) / Dynamic on device",
+            "Client-side rendering (CSR)",
             "Backend for frontend (BFF)",
-            "Server-side rendering (SSR) / Dynamic on server",
+            "Server-side rendering (SSR)",
             "Static-site generator (SSG)"
         ],
         "correct": [
@@ -805,12 +805,12 @@
         "options": [
             "Removing image background",
             "Overlaying a filter",
-            "Changing format (i.",
+            "Changing format (i.e. JPG PNG)",
             "Resizing and cropping",
             "Specifying focus area"
         ],
         "correct": [
-            "Changing format (i.",
+            "Changing format (i.e. JPG PNG)",
             "Resizing and cropping",
             "Specifying focus area"
         ]
@@ -1218,7 +1218,7 @@
             "It eliminates the need to use migration scripts",
             "It allows for modular content development and reuse across projects",
             "It reduces the number of spaces needed for an organization",
-            "I centralizes all content creation in a single space"
+            "It centralizes all content creation in a single space"
         ],
         "correct": [
             "It allows for modular content development and reuse across projects"
@@ -1326,7 +1326,7 @@
         ]
     },
     {
-        "question": "Which two statements are true about environments in Contentful? 16078403",
+        "question": "Which two statements are true about environments in Contentful?",
         "options": [
             "The sandbox environment maintains a version history of content changes.",
             "The sandbox environment is used for development and testing.",
@@ -1377,7 +1377,7 @@
         ]
     },
     {
-        "question": "Which three statements are benefits to managing content with code? 16078403",
+        "question": "Which three statements are benefits to managing content with code?",
         "options": [
             "Content models can be managed in the same version control system as the application softwar",
             "Large-scale content changes can be automated through Contentful's Migration tool.",
@@ -1403,7 +1403,7 @@
         ]
     },
     {
-        "question": "Which three statements are correct about the Dynamic on Server delivery method? 16078403",
+        "question": "Which three statements are correct about the Dynamic on Server delivery method?",
         "options": [
             "Always serves up pre-built HTML pages",
             "Requires one or more web servers for execution",
@@ -1417,7 +1417,7 @@
         ]
     },
     {
-        "question": "What is one of the first steps in content modeling? 16078403",
+        "question": "What is one of the first steps in content modeling?",
         "options": [
             "Assembling key stakeholders",
             "Setting up CI/CD workflows",
@@ -1429,7 +1429,7 @@
         ]
     },
     {
-        "question": "When is the expand/contract flow used in Contentful? 16078403",
+        "question": "When is the expand/contract flow used in Contentful?",
         "options": [
             "To temporarily increase the number of users in a space",
             "To add more content models in a space",
@@ -1545,13 +1545,13 @@
     {
         "question": "What do you need to log into your Contentful account and connect to your space via the command line?",
         "options": [
-            "Content Preview API (CP",
+	"Content Preview API (CPA) token",
             "Organization ID",
-            "Content Delivery API (CD",
-            "Content Management API (CM"
+            "Content Delivery API (CDA) token",
+            "Content Management API (CMA) token"
         ],
         "correct": [
-            "Content Management API (CM"
+            "Content Management API (CMA) token"
         ]
     },
     {
@@ -1569,7 +1569,7 @@
     {
         "question": "Which of the following is true about Contentful environments and workflows? Contentful provides a framework that …",
         "options": [
-            "encourages having product releases go through building, testing and releasing everything at the same tim",
+            "encourages having product releases go through building, testing and releasing everything at the same time.",
             "makes the work by the content and development teams constantly interdependent.",
             "is a one-size-fits-all with limiting options for the content and development teams.",
             "decouples code from content where teams can work on different things simultaneously."
